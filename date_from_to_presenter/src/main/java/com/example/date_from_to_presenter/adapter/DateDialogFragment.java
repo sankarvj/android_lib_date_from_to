@@ -97,7 +97,7 @@ public class DateDialogFragment extends DialogFragment implements DateAdapter.Da
     }
 
     public interface DateSelectedListener {
-        public void OnDateSelected(DateAdapter dateAdapter);
+        void OnDateSelected(DateAdapter dateAdapter);
     }
 
     public void setDateSetListener(DateSelectedListener dListener) {

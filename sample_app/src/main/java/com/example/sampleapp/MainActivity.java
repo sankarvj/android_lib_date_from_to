@@ -37,10 +37,6 @@ public class MainActivity extends AppCompatActivity {
         public void OnDateSelected(DateAdapter updatedDateAdapter) {
             fromTime = updatedDateAdapter.getFromDate();
             toTime = updatedDateAdapter.getToDate();
-
-            System.out.println(">>>>>>>>>>>>>>>> fromtime ----====---"+fromTime.get(Calendar.DATE)+"/"+fromTime.get(Calendar.MONTH));
-            System.out.println(">>>>>>>>>>>>>>>> totime ----====---"+toTime.get(Calendar.DATE)+"/"+toTime.get(Calendar.MONTH));
-
             date.setText(DateViewHelper.getDateRange(updatedDateAdapter.getFromDate().getTimeInMillis(),updatedDateAdapter.getToDate().getTimeInMillis()));
         }
     };
