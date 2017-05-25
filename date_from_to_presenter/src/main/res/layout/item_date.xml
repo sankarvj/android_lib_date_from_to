@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/button0"
+        style="@style/CalendarText"
+        android:background="@android:color/transparent"
+        android:text="dec" />
+
+    <Button
+        android:id="@+id/button1"
+        style="@style/CalendarText" />
+
+    <Button
+        android:id="@+id/button2"
+        style="@style/CalendarText" />
+
+    <Button
+        android:id="@+id/button3"
+        style="@style/CalendarText" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@style/CalendarText" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@style/CalendarText" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/CalendarText" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@style/CalendarText" />
+
+</LinearLayout>

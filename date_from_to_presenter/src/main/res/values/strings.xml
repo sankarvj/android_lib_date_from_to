@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">date_from_to_presenter</string>
+    <string name="hint_date_selection">Select date range</string>
+</resources>

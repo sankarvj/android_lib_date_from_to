@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/android_lib_date_from_to.iml" filepath="$PROJECT_DIR$/android_lib_date_from_to.iml" />
+      <module fileurl="file://$PROJECT_DIR$/date_from_to_presenter/date_from_to_presenter.iml" filepath="$PROJECT_DIR$/date_from_to_presenter/date_from_to_presenter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sample_app/sample_app.iml" filepath="$PROJECT_DIR$/sample_app/sample_app.iml" />
+    </modules>
+  </component>
+</project>

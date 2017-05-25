@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/date_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/calendar_week_height"
+        android:layout_marginLeft="@dimen/date_item_padding"
+        android:layout_marginRight="@dimen/date_item_padding"
+        android:layout_marginTop="@dimen/date_item_padding"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/button0"
+            style="@style/CalendarText.Top"
+            android:background="@android:color/transparent"
+            android:text="" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/CalendarText.Top"
+            android:background="@color/colorAccent"
+            android:text="S" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/CalendarText.Top"
+            android:text="M" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/CalendarText.Top"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/CalendarText.Top"
+            android:text="W" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/CalendarText.Top"
+            android:text="T" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/CalendarText.Top"
+            android:text="F" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/CalendarText.Top"
+            android:text="S" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/from_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/date_item_padding"
+        android:layout_marginRight="@dimen/date_item_padding"
+        android:paddingBottom="@dimen/date_item_padding"
+        android:scrollbars="none" >
+    </ListView>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/action_done"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000"
+        android:textColor="@color/body_text_1_inverse"
+        android:text="@string/hint_date_selection"/>
+
+
+</LinearLayout>
